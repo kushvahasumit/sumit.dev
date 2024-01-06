@@ -49,13 +49,13 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 
 // // close navbar when click 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Get all the anchor links in the navbar
   const navLinks = document.querySelectorAll('nav a');
 
   // Attach an event listener to each link
   navLinks.forEach(link => {
-     link.addEventListener('click',toggleNavbar);
+    link.addEventListener('click', toggleNavbar);
   });
 });
 
