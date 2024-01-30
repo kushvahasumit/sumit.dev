@@ -24,7 +24,7 @@ To run this portfolio locally or explore the source code, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
 
-   git clone https://github.com/kushvahasumit/sumit.dev
+   git clone https://github.com/kushvahasumit/sumit.dev.git
 
 2. Navigate to the project directory:
 
