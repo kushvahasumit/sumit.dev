@@ -588,7 +588,6 @@ body.nav-active {
 
 .hero .section-text {
   margin-block: 30px;
-  /* padding-left: 180px; */
 }
 
 .hero .btn {
@@ -839,9 +838,9 @@ body.nav-active {
 
 @media (min-width: 575px) {
 
-  .section-text{
-    padding-left: 180px;
-  }
+  .section-text {
+      padding-left: 0px;
+    }
 
   /**
      * REUSED STYLE
@@ -887,6 +886,20 @@ body.nav-active {
 }
 
 
+/* Mobile view (default padding-left for small screens) */
+@media (max-width: 575px) {
+  .section-hero-text {
+    padding-left: 0px;
+  }
+}
+
+/* For medium screens (tablets and above) */
+@media (min-width: 576px) {
+  .section-hero-text {
+    padding-left: 180px;
+    /* Or any value that suits laptops/desktops */
+  }
+}
 
 
 
