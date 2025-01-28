@@ -588,7 +588,7 @@ body.nav-active {
 
 .hero .section-text {
   margin-block: 30px;
-  padding-left: 180px;
+  /* padding-left: 180px; */
 }
 
 .hero .btn {
@@ -838,6 +838,10 @@ body.nav-active {
    */
 
 @media (min-width: 575px) {
+
+  .section-text{
+    padding-left: 180px;
+  }
 
   /**
      * REUSED STYLE
