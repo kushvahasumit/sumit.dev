@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * add event listener on multiple elements
  */
@@ -11,9 +9,6 @@ const addEventOnElements = function (elements, eventType, callback) {
     elements[i].addEventListener(eventType, callback);
   }
 }
-
-
-
 
 /**
  * PRELOADER
